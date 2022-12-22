@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>hi</title>
+	</head>
+	
+	<script>
+		function f1()
+		{
+			alert('I'm coming!');
+		}
+		
+		function f2()
+		{
+			alert('what's this?');
+		}
+	</script>
+	
+	<style>
+		
+		img{
+			width: 1000px;
+		}
+		
+		.a1{
+			background-image: url('./img/dog.jpg');
+			width: 1100px;
+			height:800px;
+		}
+		
+		.b1{
+			background-color: green;
+			opacity: 0.4;
+			width: 250px;
+			height: 250px;
+			position:relative;
+			display: inline-block;
+			top: 40px;
+			left: 80px;
+		}
+		
+	</style>
+	
+	<body>
+		<div class="a1" align=center >
+			<span class="b1" onmouseover="f1()">鼠标进入</span>
+		</div>
+		<div>
+			<input type="text"  onchange="f2()"/>
+		</div>
+	</body>
+</html>
